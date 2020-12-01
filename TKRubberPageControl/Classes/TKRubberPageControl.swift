@@ -211,7 +211,7 @@ open class TKRubberPageControl : UIControl {
     }
     
     // Index值变化
-    private func changIndexToValue(_ valueIndex: Int){
+    public func changIndexToValue(_ valueIndex: Int){
         var index = valueIndex
         if index >= numberOfpage { index = numberOfpage - 1 }
         if index < 0 { index = 0 }
